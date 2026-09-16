@@ -1,0 +1,10 @@
+.principal {
+    width: 100%;
+}
+
+@media (min-width: 1024px) {
+    .principal {
+        width: 80%;
+        margin: auto;
+    }
+}
