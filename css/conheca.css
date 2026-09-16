@@ -11,7 +11,12 @@
     margin-bottom: 1rem;
 }
 
-.conheca__produto-img{
+.conheca__produto {
+    display: flex;
+    flex-direction: column;
+}
+
+.conheca__produto-img {
     width: 100vw;
 }
 
@@ -46,7 +51,7 @@
     font-weight: 700;
 }
 
-.conheca__produto-lista{
+.conheca__produto-lista {
     color: var(--cor-branco);
     list-style: disc;
     list-style-position: inside;
@@ -63,3 +68,38 @@
     color: var(--cor-branco);
 }
 
+@media (min-width: 1024px) {
+    .conheca {
+        padding: 2rem;
+        border: 1px solid var(--cor-laranja);
+        border-radius: 1rem;
+        margin-bottom: 2rem;
+    }
+    .conheca__produto {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 1.5rem;
+    }
+
+    .conheca__produto-img {
+        width: 50%;
+        border-radius: 0.5rem;
+        border: 1px solid var(--cor-branco);
+    }
+
+    .conheca__produto-detalhe {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 1rem;
+    }
+
+    .conheca__titulo {
+        text-align: left;
+    }
+
+    .conheca__produto-botao {
+        width: 50%;
+        background-color: var(--cor-laranja);
+    }
+
+}

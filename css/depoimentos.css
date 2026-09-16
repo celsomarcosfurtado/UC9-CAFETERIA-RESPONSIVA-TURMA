@@ -65,6 +65,12 @@
     }
 }
 
+@media (min-width: 1024px) {
+    .depoimentos {
+        border-radius: 1rem;
+    }
+}
+
 @media (min-width: 1440px) {
     .depoimentos__lista {
         grid-template-columns: 1fr 1fr 1fr;
