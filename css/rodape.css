@@ -9,3 +9,9 @@
 .rodape__texto {
     margin-top: 1.5rem;
 }
+
+@media (min-width: 768px) {
+    .rodape {
+        border-top: 1px solid var(--cor-laranja);
+    }
+}
